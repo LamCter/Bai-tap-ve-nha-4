@@ -32,6 +32,7 @@ ul{
 .sidebar-item{
     padding : 5px;
     color: cornflowerblue;
+    border: 1px solid gray;
 }
 table{
     margin-left: 20px;
@@ -60,6 +61,16 @@ table{
     width: 30%;
     height: auto;
     margin: 10px;
+    border: 0.5px solid gray;
+}
+.content-item h2{
+    padding: 0 0px;
+}
+.content-item h3{
+    padding: 0 16px;
+}
+.content-item p{
+    padding: 0 16px;
 }
   /* Clear float khác sau các cột */
 .container:after {
